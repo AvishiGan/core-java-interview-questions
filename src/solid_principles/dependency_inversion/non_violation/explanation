@@ -1,0 +1,5 @@
+WindowsMachine class is not directly dependent on the keyboard and monitor classes.
+
+Instead, it depends on the Keyboard and Monitor interfaces.
+
+This is a form of loose coupling, which makes the WindowsMachine class easier to test and modify.

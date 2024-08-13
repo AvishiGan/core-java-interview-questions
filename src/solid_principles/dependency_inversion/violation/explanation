@@ -1,0 +1,5 @@
+In this version, the WindowsMachine class is tightly coupled with the keyboard and monitor classes.
+
+This means that it directly depends on these lower-level classes,
+
+which makes it harder to test and modify the WindowsMachine class.

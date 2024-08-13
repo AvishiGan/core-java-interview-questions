@@ -1,0 +1,10 @@
+In this example, Square is a subclass of Rectangle and it overrides the setWidth and setHeight methods to keep the sides equal,
+as all sides of a square are of equal length.
+
+However, this violates the Liskov Substitution Principle. Here’s why:
+
+If a function is expecting a Rectangle where it can independently set the width and height,
+we cannot substitute it with a Square, because in a Square if we set width, it changes the height as well and vice versa.
+
+So, even though a square is a rectangle in geometry, when it comes to object-oriented design,
+it can’t be modeled as a subclass of rectangle without violating the Liskov Substitution Principle.
